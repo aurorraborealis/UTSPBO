@@ -7,7 +7,7 @@ public class ChartoString {
     //Variabel string yang berisi karakter alphabet
     String chara = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#-";
     //variabel string yang berisi nomor index beberapa karakter dalam variabel chara, di pisahkan menggunakan "-"
-    String numIn = "5-0-20-25-0-13";
+    String numIn = "5-0-20-25-0-13-27-18-24-0-7-8-3-20-17";
     
     //method split untuk memisahkan string supaya menjadi array
     String[] ex = numIn.split("-");
