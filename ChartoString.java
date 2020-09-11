@@ -24,15 +24,12 @@ public class ChartoString {
        word[i] = chara.charAt(n[i]);
     };
     
-    //Variabel word yang berupa array di output kan sesuai index
-    for(int o=0; o<word.length; o++){
-      System.out.print(word[o]);
-    };
-    System.out.println();
+    //Variabel di output kan
     for(int o=0; o<word.length; o++){
       System.out.print(word[o]+" | ");
     };
-    System.out.println();
+    String res = String.valueOf(word);
+    System.out.println("\n\nResult : " + res);
     
 //  Sekian dan Terimakasih
     
