@@ -1,6 +1,10 @@
 package StringUTS;
 
 public class ChartoString {
+  
+//  Code by
+//  Fauzan Syahidur Rohman
+//  XII RPL C
 
   public static void main(String[] args) {
     
