@@ -16,16 +16,12 @@ public class ChartoString {
     //method split untuk memisahkan string supaya menjadi array
     String[] ex = numIn.split("-");
     int[] n = new int[ ex.length ];
+    char[] word  = new char[ ex.length];
     
-    //Merubah tipe data hasil pemisahan string supaya bisa menjadi tipe data integer
+    //Merubah tipe data hasil pemisahan string supaya bisa menjadi tipe data integer dan mengambil karakter dari variabel chara
     for(int i = 0 ; i < n.length ; i++) {
        n[i] = Integer.parseInt(ex[i]);
-    };
-    
-    //Mengambil character dari variabel chara ke dalam array kemudian di susun sesuai index pada variabel numIn
-    char[] word  = new char[ ex.length];
-    for(int u=0; u<n.length; u++){
-       word[u] = chara.charAt(n[u]);
+       word[i] = chara.charAt(n[i]);
     };
     
     //Variabel word yang berupa array di output kan sesuai index
@@ -34,11 +30,11 @@ public class ChartoString {
     };
     System.out.println();
     for(int o=0; o<word.length; o++){
-      System.out.print(word[o]+",");
+      System.out.print(word[o]+" | ");
     };
     System.out.println();
     
-    //Sekian dan Terimakasih
+//  Sekian dan Terimakasih
     
   }
   
